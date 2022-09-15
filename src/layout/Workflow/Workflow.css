@@ -30,3 +30,9 @@
     margin-right: 0px;
   }
 }
+
+@media (max-width: 375px) {
+  #workflow-title {
+    font-size: 30px;
+  }
+}

@@ -14,7 +14,7 @@ const TextInfo = (props) => {
         style={{
           transform: isInView ? "none" : "translateX(20px)",
           opacity: isInView ? 1 : 0,
-          transition: "all 0.5s ease-in",
+          transition: "all 0.75s ease-in",
         }}
       >
         {props.subtitle}
@@ -23,7 +23,7 @@ const TextInfo = (props) => {
         style={{
           transform: isInView ? "none" : "translateX(20px)",
           opacity: isInView ? 1 : 0,
-          transition: "all 0.5s ease-in 0.33s",
+          transition: "all 0.75s ease-in 0.33s",
         }}
       >
         {props.title}
@@ -32,7 +32,7 @@ const TextInfo = (props) => {
         style={{
           transform: isInView ? "none" : "translateX(20px)",
           opacity: isInView ? 1 : 0,
-          transition: "all 0.5s ease-in 0.66s",
+          transition: "all 0.75s ease-in 0.66s",
         }}
       >
         {props.content}

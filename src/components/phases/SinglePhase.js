@@ -16,9 +16,9 @@ const SinglePhase = ({ title, info, img, number, subtitle }) => {
       <div className="phaseTitle" ref={numref}>
         <h1
           style={{
-            transform: numInView ? "none" : "translateX(10px)",
+            transform: numInView ? "none" : "translateX(30px)",
             opacity: numInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1)",
+            transition: "all 0.9s ease-in",
           }}
         >
           {number}
@@ -26,29 +26,29 @@ const SinglePhase = ({ title, info, img, number, subtitle }) => {
         <div
           className="phaseLinebreak"
           style={{
-            transform: numInView ? "none" : "translateX(10px)",
+            transform: numInView ? "none" : "translateX(30px)",
             opacity: numInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.15s",
+            transition: "all 0.9s ease-in 0.25s",
           }}
         ></div>
         <h1
           style={{
-            transform: numInView ? "none" : "translateX(10px)",
+            transform: numInView ? "none" : "translateX(30px)",
             opacity: numInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s",
+            transition: "all 0.9s ease-in 1.25s",
           }}
         >
           {title}
         </h1>
       </div>
-      <div className="phaseContainer" ref={ref}>
+      <div className="phaseContainer">
         <img src={img} alt={title} />
-        <div className="phaseInfo">
+        <div className="phaseInfo" ref={ref}>
           <h1
             style={{
               transform: isInView ? "none" : "translateX(40px)",
               opacity: isInView ? 1 : 0,
-              transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1)",
+              transition: "all 0.75s ease-in",
             }}
           >
             {subtitle}
@@ -57,7 +57,7 @@ const SinglePhase = ({ title, info, img, number, subtitle }) => {
             style={{
               transform: isInView ? "none" : "translateX(40px)",
               opacity: isInView ? 1 : 0,
-              transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.25s",
+              transition: "all 0.75s ease-in 0.25s",
             }}
           >
             {info}

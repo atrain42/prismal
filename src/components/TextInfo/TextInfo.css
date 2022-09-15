@@ -19,7 +19,7 @@
 }
 
 .text-info p {
-  font-family: "Merriweather", sans-serif;
+  font-family: "Lora", sans-serif;
   font-size: 17px;
 }
 
@@ -32,6 +32,12 @@
 @media (max-width: 650px) {
   .text-info {
     padding: 0 25px;
+  }
+}
+
+@media (max-width: 550px) {
+  .text-info p {
+    font-size: 16px;
   }
 }
 

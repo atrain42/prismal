@@ -51,15 +51,16 @@
   font-size: 27.5px;
   font-family: "Inter", serif;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: var(--text-black);
 }
 
 .phaseInfo p {
-  color: #626262;
-  font-size: 19px;
+  color: black;
+  font-size: 17px;
   margin-bottom: 2rem;
   width: 400px;
+  font-family: "Lora", sans-serif;
 }
 
 .phaseOverhang {
@@ -125,6 +126,10 @@
   .phaseContainer img {
     height: 225px;
     width: 225px;
+  }
+
+  .phaseInfo p {
+    font-size: 16px;
   }
 }
 

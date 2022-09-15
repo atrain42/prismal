@@ -29,3 +29,9 @@
     margin-left: 0px;
   }
 }
+
+@media (max-width: 375px) {
+  #about-title {
+    font-size: 30px;
+  }
+}

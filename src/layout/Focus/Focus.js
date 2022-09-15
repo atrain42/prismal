@@ -16,7 +16,7 @@ const paragraphs = [
 
 const Focus = () => {
   return (
-    <section className="focus-outer">
+    <section className="focus-outer" id="focus">
       <div className="focus">
         <TextInfo
           subtitle="Interface"

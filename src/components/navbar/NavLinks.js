@@ -20,7 +20,7 @@ const NavLinks = (props) => {
           to="about"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={0}
           duration={500}
           onClick={() => props.isMobile && props.closeMobileMenu()}
         >
@@ -33,7 +33,7 @@ const NavLinks = (props) => {
         transition={{ delay: 0.2 }}
       >
         <Link
-          to="process"
+          to="focus"
           spy={true}
           smooth={true}
           offset={0}
@@ -49,10 +49,10 @@ const NavLinks = (props) => {
         transition={{ delay: 0.3 }}
       >
         <Link
-          to="questions"
+          to="process"
           spy={true}
           smooth={true}
-          offset={-75}
+          offset={0}
           duration={500}
           onClick={() => props.isMobile && props.closeMobileMenu()}
         >
@@ -68,7 +68,7 @@ const NavLinks = (props) => {
           to="contact"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={50}
           duration={500}
           onClick={() => props.isMobile && props.closeMobileMenu()}
         >

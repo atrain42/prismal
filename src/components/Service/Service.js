@@ -22,7 +22,7 @@ const data = [
   },
   {
     title: "Personal Branding",
-    info: "Take your content creating to the next level with interactive portfolio or blog applications.",
+    info: "Take your content creating to the next level with portfolio or blog applications.",
     icon: product,
   },
 ];

@@ -40,7 +40,7 @@ const Promo = () => {
           }}
         >
           As a designer and developer, I understand what it takes to create the
-          perfect user interface to enhance your website. Together, we can can
+          perfect user interface to enhance your website. Together, we can
           uncover problems in your business and solve them through web
           applications. In short, I solve complex problems with simple
           solutions.

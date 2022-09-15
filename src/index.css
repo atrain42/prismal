@@ -16,11 +16,7 @@ html {
 }
 
 :root {
-  --green: #41b3a3;
-  --green: #98ddd4c9;
   --text-black: #404040;
-  --max-width: 1170px;
-  --fixed-width: 920px;
 }
 
 #logo {

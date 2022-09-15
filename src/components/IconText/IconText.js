@@ -1,3 +1,4 @@
+//styles
 import classes from "./IconText.module.css";
 
 const IconText = (props) => {

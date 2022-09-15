@@ -1,6 +1,10 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
+
+//styles
 import classes from "./Service.module.css";
+
+//images
 import app from "../../img/app.png";
 import cloud from "../../img/cloud.png";
 import product from "../../img/product.png";

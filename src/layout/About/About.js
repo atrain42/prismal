@@ -1,6 +1,8 @@
+//Components
+import { Service, AnimatedTextWord } from "../../components";
+
+//styles
 import "./About.css";
-import Service from "../../components/Service/Service";
-import AnimatedTextWord from "../../components/AnimatedTextWord/AnimatedTextWord";
 
 const About = () => {
   return (

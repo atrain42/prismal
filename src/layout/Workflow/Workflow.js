@@ -1,6 +1,8 @@
+//components
+import { Phases, AnimatedTextWord } from "../../components";
+
+//styles
 import "./Workflow.css";
-import Phases from "../../components/phases/Phases";
-import AnimatedTextWord from "../../components/AnimatedTextWord/AnimatedTextWord";
 
 const Workflow = () => {
   return (

@@ -44,3 +44,19 @@ html {
   height: 75px;
   width: 75px;
 }
+
+@media (max-height: 725px) {
+  .mobile-nav__bin {
+    margin-top: 75px;
+  }
+}
+
+@media (max-height: 675px) {
+  .mobile-nav__bin {
+    margin-top: 65px;
+  }
+
+  .mobile-nav__image {
+    display: none;
+  }
+}

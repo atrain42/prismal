@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 
+//images
+import prism from "../../img/prism.png";
+
 const NavLinks = (props) => {
   const animateFrom = { opacity: 0, y: -30 };
   const animateTo = { opacity: 1, y: 0 };
@@ -37,7 +40,7 @@ const NavLinks = (props) => {
           duration={500}
           onClick={() => props.isMobile && props.closeMobileMenu()}
         >
-          Process
+          Focus
         </Link>
       </motion.li>
       <motion.li
@@ -53,7 +56,7 @@ const NavLinks = (props) => {
           duration={500}
           onClick={() => props.isMobile && props.closeMobileMenu()}
         >
-          Questions
+          Process
         </Link>
       </motion.li>
       <motion.li
@@ -72,6 +75,12 @@ const NavLinks = (props) => {
           Contact
         </Link>
       </motion.li>
+      {props.isMobile && (
+        <div className="mobile-nav__bin">
+          <img src={prism} alt="prism" className="mobile-nav__image" />
+          <h1 className="mobile-nav__copyright">&#169; Pixel Prism</h1>
+        </div>
+      )}
     </ul>
   );
 };

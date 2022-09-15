@@ -1,5 +1,8 @@
-import classes from "./Navbar.module.css";
+//components
 import NavLinks from "./NavLinks";
+
+//styles
+import classes from "./Navbar.module.css";
 
 const Navigation = () => {
   return (

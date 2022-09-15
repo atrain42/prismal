@@ -1,9 +1,14 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
-import classes from "./Navbar.module.css";
+
+//components
 import Navigation from "./Navigation";
 import MobileNavigation from "./MobileNavigation";
 
+//styles
+import classes from "./Navbar.module.css";
+
+//images
 import logo from "../../img/logo.png";
 
 const Navbar = () => {

@@ -58,9 +58,9 @@
 .nav ul li {
   list-style: none;
   cursor: pointer;
-  font-family: "Inter", sans-serif;
-  color: #eee;
-  font-size: 13px;
+  font-family: "Merriweather", sans-serif;
+  color: #f7f9f2;
+  font-size: 17px;
   margin-right: 2rem;
 }
 
@@ -89,24 +89,18 @@
     right: 0;
     height: 100vh;
     min-height: 100vh;
-    width: 40rem;
-    background-color: #001220;
+    width: 60vw;
+    background-color: #536437;
     z-index: 6;
     padding-top: 10rem;
-    border-left: 1px solid #62849e;
   }
 
   .nav ul li {
-    font-family: "Inter", sans-serif;
-    color: #fff;
-    font-size: 22.5px;
+    font-size: 25px;
     z-index: 6;
+    margin-right: 0px;
     margin-bottom: 3rem;
     transition: all 0.25s;
-  }
-
-  .nav ul li:hover {
-    color: var(--color-yellow);
   }
 }
 

@@ -1,0 +1,60 @@
+.iconText {
+  display: flex;
+  flex-direction: column;
+  z-index: 60;
+  margin-bottom: 25px;
+}
+
+#last {
+  margin-bottom: 0px;
+}
+
+.iconText p {
+  width: 400px;
+}
+
+.linebreak {
+  width: 100px;
+  height: 1px;
+  background-color: rgb(30, 30, 30);
+}
+
+.textBin {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.textBin h1 {
+  font-family: "Lora", sans-serif;
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+.textBin h2 {
+  font-size: 19px;
+  margin-left: 7.5px;
+}
+
+.iconText img {
+  height: 27.5px;
+  width: 27.5px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1025px) {
+  .iconText p {
+    width: 35vw;
+  }
+}
+
+@media (max-width: 850px) {
+  .iconText p {
+    width: 100%;
+  }
+
+  .iconText {
+    margin-bottom: 60px;
+    margin-right: 0px;
+  }
+}

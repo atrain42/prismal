@@ -1,0 +1,135 @@
+.phaseContainer {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 75px 0;
+  gap: 100px;
+}
+
+.phaseTitle {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  font-family: "Merriweather", sans-serif;
+  font-size: 33px;
+  color: var(--text-black);
+}
+
+.phaseLinebreak {
+  height: 1px;
+  width: 100px;
+  border-bottom: 1px solid var(--text-black);
+  margin: 0 10px;
+}
+
+.phaseContainer img {
+  height: 400px;
+  width: 400px;
+}
+
+.phaseInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.phaseInfo a {
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  color: #6b715c;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.phaseInfo h1 {
+  font-size: 27.5px;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: var(--text-black);
+}
+
+.phaseInfo p {
+  color: #626262;
+  font-size: 19px;
+  margin-bottom: 2rem;
+  width: 400px;
+}
+
+.phaseOverhang {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 975px) {
+  .phaseContainer {
+    gap: 50px;
+  }
+  .phaseInfo p {
+    width: 100%;
+  }
+
+  .phaseContainer img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 950px) {
+  .phaseInfo h1 {
+    font-size: 32px;
+  }
+
+  .phaseTitle {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .phaseInfo h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 750px) {
+  .phaseInfo {
+    width: 100%;
+  }
+  .phaseInfo h1 {
+    font-size: 25px;
+  }
+  .phaseContainer {
+    grid-template-columns: 1fr;
+    padding: 25px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .phaseTitle {
+    padding-left: 0px;
+    justify-content: center;
+  }
+
+  .phaseTitle h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 550px) {
+  .phaseContainer img {
+    height: 225px;
+    width: 225px;
+  }
+}
+
+@media (max-width: 350px) {
+  .phaseLinebreak {
+    width: 75px;
+  }
+}

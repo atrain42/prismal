@@ -1,0 +1,126 @@
+.nav {
+  z-index: 100;
+  background-color: #39472395;
+  box-shadow: 0px 0px 7px 2px #40404086;
+  position: fixed;
+  width: 100%;
+}
+
+.navOverhang {
+  padding: 0rem 5px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.navOverhang a {
+  text-decoration: none;
+}
+
+.navButtons {
+  width: 35rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.navButtons button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+
+.homeButton {
+  display: flex;
+  align-items: center;
+}
+
+.nav .mobileNavigation {
+  display: none;
+}
+
+.nav ul {
+  display: flex;
+  z-index: 5500;
+}
+.nav .Navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li {
+  list-style: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  color: #eee;
+  font-size: 13px;
+  margin-right: 2rem;
+}
+
+@media (max-width: 990px) {
+  .nav .Navigation {
+    display: none;
+  }
+
+  .nav .mobileNavigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav .mobileNavigation .Hamburger {
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+    z-index: 8;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    min-height: 100vh;
+    width: 40rem;
+    background-color: #001220;
+    z-index: 6;
+    padding-top: 10rem;
+    border-left: 1px solid #62849e;
+  }
+
+  .nav ul li {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 22.5px;
+    z-index: 6;
+    margin-bottom: 3rem;
+    transition: all 0.25s;
+  }
+
+  .nav ul li:hover {
+    color: var(--color-yellow);
+  }
+}
+
+@media (max-width: 600px) {
+  .homeButton img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .homeButton h1 {
+    font-size: 1.25rem;
+  }
+
+  .nav ul {
+    width: 100%;
+  }
+}

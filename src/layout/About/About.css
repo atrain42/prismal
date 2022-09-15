@@ -1,0 +1,31 @@
+.about {
+  padding: 100px 0;
+}
+
+#about-title {
+  font-family: "Lora", sans-serif;
+  font-size: 55px;
+  margin-left: 50px;
+  font-weight: 400;
+  display: flex;
+}
+
+@media (max-width: 750px) {
+  #about-title {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 575px) {
+  #about-title {
+    font-size: 37px;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 550px) {
+  #about-title {
+    justify-content: center;
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,51 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Merriweather", sans-serif;
+}
+
+.promo h1 {
+  font-size: 33px;
+}
+
+.promo img {
+  height: 400px;
+  width: 400px;
+}
+
+.promo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo-text h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.promo-text p {
+  width: 750px;
+  text-align: center;
+  font-size: 19px;
+}
+
+@media (max-width: 825px) {
+  .promo {
+    padding: 0 25px;
+  }
+
+  .promo-text p {
+    width: 100%;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 450px) {
+  .promo img {
+    height: 300px;
+    width: 300px;
+  }
+}

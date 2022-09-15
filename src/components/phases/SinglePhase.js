@@ -18,7 +18,7 @@ const SinglePhase = ({ title, info, img, number, subtitle }) => {
           style={{
             transform: numInView ? "none" : "translateX(30px)",
             opacity: numInView ? 1 : 0,
-            transition: "all 0.9s ease-in",
+            transition: "all 0.75s ease-in",
           }}
         >
           {number}
@@ -28,14 +28,14 @@ const SinglePhase = ({ title, info, img, number, subtitle }) => {
           style={{
             transform: numInView ? "none" : "translateX(30px)",
             opacity: numInView ? 1 : 0,
-            transition: "all 0.9s ease-in 0.25s",
+            transition: "all 0.75s ease-in 0.25s",
           }}
         ></div>
         <h1
           style={{
             transform: numInView ? "none" : "translateX(30px)",
             opacity: numInView ? 1 : 0,
-            transition: "all 0.9s ease-in 1.25s",
+            transition: "all 0.75s ease-in 0.5s",
           }}
         >
           {title}
@@ -48,7 +48,7 @@ const SinglePhase = ({ title, info, img, number, subtitle }) => {
             style={{
               transform: isInView ? "none" : "translateX(40px)",
               opacity: isInView ? 1 : 0,
-              transition: "all 0.75s ease-in",
+              transition: "all 0.75s ease-in 0.5s",
             }}
           >
             {subtitle}
@@ -57,12 +57,23 @@ const SinglePhase = ({ title, info, img, number, subtitle }) => {
             style={{
               transform: isInView ? "none" : "translateX(40px)",
               opacity: isInView ? 1 : 0,
-              transition: "all 0.75s ease-in 0.25s",
+              transition: "all 0.75s ease-in 1s",
             }}
           >
             {info}
           </p>
-          <Link to="contact" spy={true} smooth={true} offset={0} duration={500}>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            style={{
+              transform: isInView ? "none" : "translateX(40px)",
+              opacity: isInView ? 1 : 0,
+              transition: "all 0.75s ease-in 1.5s",
+            }}
+          >
             Get started &#8594;
           </Link>
         </div>

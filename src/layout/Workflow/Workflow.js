@@ -1,5 +1,6 @@
 //components
-import { Phases, AnimatedTextWord } from "../../components";
+import Phases from "../../components/Phases/Phases";
+import AnimatedTextWord from "../../components/AnimatedTextWord/AnimatedTextWord";
 
 //styles
 import "./Workflow.css";

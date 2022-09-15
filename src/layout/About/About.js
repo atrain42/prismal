@@ -1,5 +1,6 @@
 //Components
-import { Service, AnimatedTextWord } from "../../components";
+import Service from "../../components/Service/Service";
+import AnimatedTextWord from "../../components/AnimatedTextWord/AnimatedTextWord";
 
 //styles
 import "./About.css";

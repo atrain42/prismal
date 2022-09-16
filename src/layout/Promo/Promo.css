@@ -57,3 +57,10 @@
     width: 300px;
   }
 }
+
+@media (max-width: 325px) {
+  .promo img {
+    height: 250px;
+    width: 250px;
+  }
+}

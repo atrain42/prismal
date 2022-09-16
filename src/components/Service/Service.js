@@ -1,5 +1,5 @@
-import { useRef } from "react";
-import { useInView } from "framer-motion";
+//Components
+import SingleService from "../../components/Service/SingleService";
 
 //styles
 import classes from "./Service.module.css";
@@ -28,28 +28,10 @@ const data = [
 ];
 
 const Service = () => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
   return (
-    <section className={classes.service} ref={ref}>
+    <section className={classes.service}>
       {data.map((el, index) => (
-        <div
-          className={classes.singleService}
-          key={index}
-          style={{
-            opacity: isInView ? 1 : 0,
-            transition: "all 1s ease-in",
-          }}
-        >
-          <div className={classes.serviceTitle}>
-            <img src={el.icon} alt={el.title} className={classes.icon}></img>
-            <div className={classes.textText}>
-              <h1>{el.title}</h1>
-              <p>{el.info}</p>
-            </div>
-          </div>
-        </div>
+        <SingleService {...el} key={index} />
       ))}
     </section>
   );

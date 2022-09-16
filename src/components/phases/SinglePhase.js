@@ -12,28 +12,20 @@ const SinglePhase = ({ title, info, img, number, subtitle }) => {
   const numInView = useInView(ref, { once: true });
 
   return (
-    <div className="phaseOverhang">
-      <div className="phaseTitle" ref={numref}>
-        <h1
-          style={{
-            transform: numInView ? "none" : "translateX(30px)",
-            opacity: numInView ? 1 : 0,
-            transition: "all 0.75s ease-in",
-          }}
-        >
-          {number}
-        </h1>
+    <div className="phaseOverhang" ref={numref}>
+      <div className="phaseTitle">
+        <h1>{number}</h1>
         <div
           className="phaseLinebreak"
           style={{
-            transform: numInView ? "none" : "translateX(30px)",
+            transform: numInView ? "none" : "translateX(40px)",
             opacity: numInView ? 1 : 0,
-            transition: "all 0.75s ease-in 0.25s",
+            transition: "all 0.75s ease-in",
           }}
         ></div>
         <h1
           style={{
-            transform: numInView ? "none" : "translateX(30px)",
+            transform: numInView ? "none" : "translateX(40px)",
             opacity: numInView ? 1 : 0,
             transition: "all 0.75s ease-in 0.5s",
           }}

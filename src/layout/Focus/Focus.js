@@ -6,8 +6,8 @@ import TextInfo from "../../components/TextInfo/TextInfo";
 import FocusImage from "../../components/FocusImage/FocusImage";
 
 //images
-import bulb from "../../img/bulb-growth.png";
-import chimney from "../../img/hand-chimney.png";
+import bulb from "../../img/bulb-growth.webp";
+import chimney from "../../img/hand-chimney.webp";
 
 const paragraphs = [
   "A stellar user interface leaves a lasting impression on your business and users. I will construct the perfect user interface by making your site interactive and adding subtle animations; all while keeping it simple.",

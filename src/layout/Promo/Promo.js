@@ -5,7 +5,7 @@ import { useInView } from "framer-motion";
 import "./Promo.css";
 
 //images
-import goggles from "../../img/goggles.png";
+import goggles from "../../img/goggles.webp";
 
 const Promo = () => {
   const ref = useRef(null);

@@ -5,9 +5,9 @@ import SinglePhase from "./SinglePhase";
 import classes from "./Phases.module.css";
 
 //images
-import img1 from "../../img/research-bro2.png";
-import img2 from "../../img/website-bro.png";
-import img3 from "../../img/create-bro.png";
+import img1 from "../../img/research-bro2.webp";
+import img2 from "../../img/website-bro.webp";
+import img3 from "../../img/create-bro.webp";
 
 const alerts = [
   {

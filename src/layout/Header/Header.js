@@ -6,7 +6,7 @@ import { useInView } from "framer-motion";
 import classes from "./Header.module.css";
 
 //images
-import Image from "../../img/water-bulb.png";
+import Image from "../../img/water-bulb.webp";
 
 const Header = () => {
   const ref = useRef(null);

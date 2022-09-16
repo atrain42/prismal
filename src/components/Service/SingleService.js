@@ -15,18 +15,18 @@ const SingleService = (props) => {
         <div className="textText" ref={ref}>
           <h1
             style={{
-              transform: isInView ? "none" : "scale(0.95)",
+              transform: isInView ? "none" : "translateX(30px)",
               opacity: isInView ? 1 : 0,
-              transition: "all 0.75s ease-in 0s",
+              transition: "all 0.75s ease-in",
             }}
           >
             {props.title}
           </h1>
           <p
             style={{
-              transform: isInView ? "none" : "translateY(30px)",
+              transform: isInView ? "none" : "translateX(30px)",
               opacity: isInView ? 1 : 0,
-              transition: "all 0.75s ease-in",
+              transition: "all 0.75s ease-in 0.75s",
             }}
           >
             {props.info}

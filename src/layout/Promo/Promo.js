@@ -12,22 +12,14 @@ const Promo = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section className="promo" ref={ref}>
-      <img
-        src={goggles}
-        alt="goggles"
-        style={{
-          transform: isInView ? "none" : "scale(1.1)",
-          opacity: isInView ? 1 : 0,
-          transition: "all 1s ease-in",
-        }}
-      />
-      <div className="promo-text">
+    <section className="promo">
+      <img src={goggles} alt="goggles" />
+      <div className="promo-text" ref={ref}>
         <h1
           style={{
             transform: isInView ? "none" : "translateY(30px)",
             opacity: isInView ? 1 : 0,
-            transition: "all 0.75s ease-in",
+            transition: "all 0.75s ease-in 0.25s",
           }}
         >
           Draw eyes to your business
@@ -36,7 +28,7 @@ const Promo = () => {
           style={{
             transform: isInView ? "none" : "translateY(30px)",
             opacity: isInView ? 1 : 0,
-            transition: "all 0.75s ease-in 0.25s",
+            transition: "all 0.75s ease-in 0.75s",
           }}
         >
           As a designer and developer, I understand what it takes to create the

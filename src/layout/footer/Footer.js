@@ -74,7 +74,7 @@ const Footer = () => {
           style={{
             transform: isInView ? "none" : "translateY(20px)",
             opacity: isInView ? 1 : 0,
-            transition: "all 0.25s ease-in 1s",
+            transition: "all 0.75s ease-in 1.5s",
           }}
         >
           Contact

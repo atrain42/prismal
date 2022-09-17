@@ -125,12 +125,15 @@
 }
 
 @media (max-width: 350px) {
-  .header {
-    padding-top: 0rem;
-  }
-
   .svgContainer {
     width: 15rem;
     height: 15rem;
+  }
+}
+
+@media (max-width: 550px) and (max-height: 750px) {
+  .svgContainer {
+    width: 13.5rem;
+    height: 13.5rem;
   }
 }

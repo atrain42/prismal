@@ -1,5 +1,5 @@
 //components
-import Phases from "../../components/Phases/Phases";
+import Phases from "../../components/phases/Phases";
 
 //styles
 import "./Workflow.css";

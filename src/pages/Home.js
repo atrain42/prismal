@@ -9,7 +9,7 @@ import Promo from "../layout/Promo/Promo";
 import Footer from "../layout/Footer/Footer";
 
 //Components
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../components/navbar/Navbar";
 
 const Home = (props) => {
   return (

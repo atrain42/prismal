@@ -91,7 +91,6 @@
     align-items: center;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 5rem;
   }
 
   .header p {
@@ -137,6 +136,12 @@
   .svgContainer {
     width: 15rem;
     height: 15rem;
+  }
+}
+
+@media (max-height: 750px) {
+  .header {
+    padding-top: 5rem;
   }
 }
 

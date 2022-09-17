@@ -60,7 +60,6 @@ const Header = () => {
           Get in touch
         </Link>
       </div>
-      {/* <img src={Image} alt="" className={classes.headerSvg} /> */}
       <div className={classes.svgContainer}>
         <img src={Image} alt="" className={classes.headerSvg} />
       </div>

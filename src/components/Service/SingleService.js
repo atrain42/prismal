@@ -24,7 +24,7 @@ const SingleService = (props) => {
           </h1>
           <p
             style={{
-              transform: isInView ? "none" : "translateX(30px)",
+              transform: isInView ? "none" : "translateY(30px)",
               opacity: isInView ? 1 : 0,
               transition: "all 0.75s ease-in 0.75s",
             }}

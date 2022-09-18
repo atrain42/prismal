@@ -61,7 +61,7 @@ const SinglePhase = ({ title, info, img, number, subtitle }) => {
             offset={0}
             duration={500}
             style={{
-              transform: isInView ? "none" : "translateX(40px)",
+              transform: isInView ? "none" : "translateY(30px)",
               opacity: isInView ? 1 : 0,
               transition: "all 0.75s ease-in 1.5s",
             }}

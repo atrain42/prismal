@@ -15,31 +15,9 @@ const Header = () => {
   return (
     <section className={classes.header} ref={ref}>
       <div className={classes.headerText}>
-        <h1
-          style={{
-            transform: isInView ? "none" : "translateY(30px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.75s ease-in",
-          }}
-        >
-          Pixel Prism
-        </h1>
-        <h1
-          style={{
-            transform: isInView ? "none" : "translateY(40px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.75s ease-in 0.5s",
-          }}
-        >
-          Web Development
-        </h1>
-        <p
-          style={{
-            transform: isInView ? "none" : "translateY(40px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.75s ease-in 1s",
-          }}
-        >
+        <h1>Pixel Prism</h1>
+        <h1>Web Development</h1>
+        <p>
           Together we can bridge the gap between art and technology. Let's grow
           your business or personal brand with a website that leaves a lasting
           impression.
@@ -54,7 +32,7 @@ const Header = () => {
           className={classes.contactBtn}
           style={{
             opacity: isInView ? 1 : 0,
-            transition: "all 0.75s ease-in 1.5s",
+            transition: "all 0.75s ease-in 1s",
           }}
         >
           Get in touch

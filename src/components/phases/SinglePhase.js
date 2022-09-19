@@ -15,19 +15,12 @@ const SinglePhase = ({ title, info, img, number, subtitle }) => {
     <div className="phaseOverhang" ref={numref}>
       <div className="phaseTitle">
         <h1>{number}</h1>
-        <div
-          className="phaseLinebreak"
-          style={{
-            transform: numInView ? "none" : "translateX(40px)",
-            opacity: numInView ? 1 : 0,
-            transition: "all 0.75s ease-in",
-          }}
-        ></div>
+        <div className="phaseLinebreak"></div>
         <h1
           style={{
             transform: numInView ? "none" : "translateX(40px)",
             opacity: numInView ? 1 : 0,
-            transition: "all 0.75s ease-in 0.5s",
+            transition: "all 0.75s ease-in",
           }}
         >
           {title}

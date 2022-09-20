@@ -80,7 +80,7 @@ const Footer = () => {
           Contact
         </a>
       </div>
-      <h3 className={classes.email}>pixelprism42@gmail.com</h3>
+      <h3 className={classes.email}>Illustration(s) from absurd.design.</h3>
     </section>
   );
 };

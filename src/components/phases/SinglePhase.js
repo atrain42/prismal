@@ -20,7 +20,7 @@ const SinglePhase = ({ title, info, img, number, subtitle }) => {
           style={{
             transform: numInView ? "none" : "translateX(40px)",
             opacity: numInView ? 1 : 0,
-            transition: "all 0.75s ease-in",
+            transition: "all 0.5s ease-in",
           }}
         >
           {title}

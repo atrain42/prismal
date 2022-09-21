@@ -51,8 +51,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Lora", sans-serif;
-  font-size: 8px;
+  font-size: 7px;
   letter-spacing: 1.2px;
+  white-space: nowrap;
 }
 
 .sectionHeading {
